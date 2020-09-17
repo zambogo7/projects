@@ -1,0 +1,85 @@
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 4rem;
+        width: 60%;
+        letter-spacing: 6px;
+    }
+    
+    .h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        color: hsl(0, 36%, 70%);
+        font-size: 4rem;
+        letter-spacing: 6px;
+    }
+    
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        color: hsl(0, 36%, 70%);
+        width: 70%;
+    }
+    
+    .right-image {
+        width: 100%;
+        height: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo-image {
+        padding: 3% 0 7% 5%;
+    }
+    
+    .txt {
+        padding: 7% 0 0 10%;
+    }
+    
+    .form {
+        border: 1px solid hsl(0, 80%, 86%);
+        border-radius: 30px;
+        padding: 2% 2% 2% 4%;
+        outline: none;
+        width: 50%;
+    }
+    
+    .arrow-image {
+        background-color: #ee8c8c;
+        border-radius: 30px;
+        width: 10%;
+        padding: 1.7% 2% 1.8% 4%;
+        display: inline-block;
+        position: absolute;
+        left: 45%;
+        margin: 0;
+    }
+    
+    .display-image {
+        width: 100%;
+    }
+    
+    .logo-display {
+        padding: 3% 0 7% 5%;
+    }
+    
+    @media only screen and (min-width: 1028px) {
+        .display {
+            display: none;
+        }
+        .logo-display {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 1028px) {
+        .right-image {
+            display: none;
+        }
+        .logo-image {
+            display: none;
+        }
+        main {
+            text-align: center;
+        }
+    }
