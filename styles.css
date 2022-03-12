@@ -59,9 +59,7 @@
         width: 100%;
     }
     
-    .logo-display {
-        padding: 3% 0 7% 5%;
-    }
+
     
     @media only screen and (min-width: 1028px) {
         .display {
@@ -83,3 +81,30 @@
             text-align: center;
         }
     }
+    .footer{
+       text-align: center;
+       padding: 2rem;
+    }
+  .footer-icons{
+      height: 3rem;
+      width: 3rem;
+      margin-right: 1rem;
+      margin-left: 1.7rem;
+  }
+.copyright-icon{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1.7rem;
+}
+.trademark-icon{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1.7rem;
+}
+.social-media{
+    margin-bottom: 2rem;
+}
+
+.legal-identity{
+    padding-bottom: 4rem;
+}
